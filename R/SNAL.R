@@ -1,6 +1,8 @@
-SNAL <- function(y,G,P,a,s2){
-	Z=G
-	X=G%*%P
+SNAL <-
+function(y,G,P,a,s2){
+	P=data.matrix(P)
+	Z=data.matrix(G)
+	X=Z%*%P
 	ZZ=Z%*%t(Z)
 	V=(a*ZZ+diag(length(y)))
 	W=matrix.invroot.calculation(V)

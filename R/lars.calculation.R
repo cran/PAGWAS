@@ -10,4 +10,3 @@ function(y,x,z,s2){
     rm(z,x,a,u)
     u.star
 }
-

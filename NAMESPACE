@@ -1,3 +1,5 @@
-export(create.pathway.matrix,FM.chi.pvalue,NBF,return.a.SNAL,return.bf.NBF, return.hyperparameters.NBF,return.s2.SNAL,roc.convex,SNAL,snps.to.genes,snps.to.pathways)
+export(create.pathway.df,FM.chi.pvalue,NBF,SNAL.calculation,SNAL,snps.to.genes,snps.to.pathways)
 
-import(lars,doMC,mnormt)
+import(lars,mnormt,foreach)
+importFrom("stats","pchisq")
+

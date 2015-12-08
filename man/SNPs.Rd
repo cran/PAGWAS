@@ -2,17 +2,17 @@
 \alias{SNPs}
 \docType{data}
 \title{
-A data-frame of 100 SNPs with their chromosomes and positions on the genome
+A data frame of 100 artificial SNPs with their chromosomes and positions on the genome
 }
 
 \description{ 
-A data-frame of 100 SNPs with their positions on the genome
+A data frame with 100 rows and 3 columns.
 }
 
 \usage{data(SNPs)}
 
 \format{
-  A data-frame with 100 observations for the following 3 variables:
+	Column names:
   \describe{
     \item{\code{Name}}{SNP name}
     \item{\code{Position}}{Position of SNP on the genome}

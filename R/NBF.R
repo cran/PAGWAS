@@ -1,6 +1,8 @@
-NBF<-function(y,G,P,a,b,s2,nu){
-	Z=G
-	X=G%*%P
+NBF <-
+function(y,G,P,a,b,s2,nu){
+	Z=data.matrix(G)
+	P=data.matrix(P)
+	X=Z%*%P
 	ZZ=Z%*%t(Z)
 	XX=X%*%t(X)
 
@@ -17,4 +19,3 @@ NBF<-function(y,G,P,a,b,s2,nu){
 	names(BF)=colnames(P)
 BF
 }
-

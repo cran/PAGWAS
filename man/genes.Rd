@@ -2,18 +2,17 @@
 \alias{genes}
 \docType{data}
 \title{
-A data-frame of 20 genes with their chromosomes and positions on the genome
+A data frame of 20 artificial genes with their chromosomes and positions on the genome
 }
 
 \description{
-A data-frame of 20 genes with their chromosomes and positions on the genome
+A data frame with 20 rows and 4 columns.
 }
 
-\usage{data(genes)
-}
+\usage{data(genes)}
 
 \format{
-  A data-frame with 20 observations for the following 4 variables:
+Column names:
   \describe{
     \item{\code{Name}}{Name of gene}
     \item{\code{Start}}{Start position of gene on the genome}
@@ -23,7 +22,7 @@ A data-frame of 20 genes with their chromosomes and positions on the genome
 }
 
 \seealso{
-\code{\link{SNPs}}, \code{\link{pathways}}
+\code{\link{SNPs}}
 }
 
 \examples{
